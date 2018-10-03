@@ -1,0 +1,77 @@
+/* adds icons */
+
+@font-face {
+  font-family: 'Framework7 Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/Framework7Icons-Regular.woff") format("woff");
+}
+
+.f7-icons, .framework7-icons {
+  font-family: 'Framework7 Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  text-align: center;
+}
+
+/* general css for all views */
+
+h1, h2 {
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+
+}
+
+h1 {
+    font-size:36px;
+    text-align:center;
+    color: #03436F;
+}
+
+h2 {
+  font-size: 22px;
+  text-align:left;
+  color: #03436F;
+  margin-bottom: 10px;
+}
+
+p, blockquote {    
+  text-align: center;
+  margin-top: -1px;
+  font-size: 22px;
+  color: #03436F;
+}
+
+button {
+    width:100%;
+    text-align: center;   
+}
+
+img {
+  max-width:100%;
+  max-height:100%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.page-content {
+  background: white;
+}
